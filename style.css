@@ -1,0 +1,60 @@
+.flex{
+    background-image: url("../assignone/final.jpg");
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+    height: 1920px;
+}
+.flex > header{
+    padding-top: 20px;
+    padding-right: 25px;
+}
+.flex > header > div > span{
+    font-family: Libre Baskerville;
+    margin-left: 16%;
+    font-size: 20px;
+    word-spacing: 10px;
+}
+.flex > header > div + div > span{
+    font-size: 27px;
+    margin-left: 12.5%;
+}
+.flex > header > div + div > span:nth-child(4){
+    margin-left: 13.5%;
+}
+.flex > header > div + div > span:nth-child(3){
+    margin-left: 9.5%;
+}
+.flex > header > div + div > span:nth-child(2){
+    margin-left: 8.75%;
+}
+.flex > section{
+    text-align: center;
+    padding-top: 1150px;
+    font-size: 24px;
+    color: white;
+    font-family: roboto;
+    word-spacing: 10px;
+}
+.flex > section > h4{
+    font-size: 15px;
+    font-family: libre baskerville;
+}
+.flex > section > h2{
+    font-family: Playfair;
+    font-size: 100px;
+    letter-spacing: 60px;
+    padding-left: 60px;
+    line-height: 22px;
+    font-weight: lighter;
+}
+.flex > section >h2 >a{
+    text-decoration: none;
+    color: white;
+}
+.flex > section > p{
+    font-family: libre baskerville;
+    font-size: 20px;
+    line-height: 5px;
+    letter-spacing: 3px;
+}
