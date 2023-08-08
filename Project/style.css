@@ -1,0 +1,409 @@
+/*Styling for navbar begins*/
+.mainhead{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    background-color: black;
+    color: white;
+}
+.mainhead > div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    font-size: 30px;
+}
+.mainhead > div > img{
+    flex: 0.1;
+}
+.mainhead > div > h4{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.mainhead > div > h4 > a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+/*navbar styling ends*/
+/*Sub header styling*/
+.subhead{
+    display: flex;
+    width: auto;
+    height: 75px;
+    justify-content: space-evenly;
+}
+.subhead > div:nth-child(1){
+    display: flex;
+    justify-content: space-evenly;
+}
+.subhead > div:nth-child(2){
+    display: flex;
+    justify-content: space-evenly;
+}
+.subhead  button{
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 17px;
+}
+.subhead img{
+    height: 70px;
+}
+.subhead h2{
+    margin-top: 25px;
+    margin-right: 20px;
+}
+.subhead h4{
+    margin-top: 25px;
+}
+.hr{
+    width: 850px;
+}
+/*Sub head ends*/
+/*Main CSS begins from here*/
+.main{
+    display: flex;
+    justify-content: left;
+}
+.main > div:nth-child(2) > h1{
+    font-size: 120px;
+    font-family: open sans;
+    height: 50px;
+}
+.main > div:nth-child(2) >p{
+    font-size: 30px;
+    color: grey;
+}
+.main > div:nth-child(2) > p + p{
+    font-size: 20px;
+    color: black;
+    font-family: barlow;
+}
+.main > div:nth-child(2) > h3{
+    margin-top: 50px;
+    font-size: 20px;
+}
+.main > div:nth-child(2) > h3 > a{
+    text-decoration: none;
+    color: black;
+}
+.abouthead{
+    display: flex;
+    justify-content: center;
+}
+.abouthead > div > img{
+    width: 100%;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.contact > h1{
+    font-size: 90px;
+    font-family: barlow;
+    font-weight: bolder;
+}
+
+.maincontact{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.maincontact div{
+    padding: 30px;
+    justify-content: left;
+}
+.maincontact{
+    font-family: open-sans;
+}
+.maincontact h2,.maincontact1 h2{
+    font-size: 45px;
+    text-align: center;
+}
+.maincontact p,.sub-sub-maincontact1 p{
+    font-size: 20px;
+    text-indent: 30px;
+}
+.sub-maincontact1 p{
+    margin-left: 120px;
+}
+.sub-maincontact3 p{
+    margin-left: 90px;
+}
+.sub-maincontact2 p{
+    width: 540px;
+}
+.footer{
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+}
+.footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+}
+.footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+}
+.footer .row a:hover{
+    color:#fff;
+}
+.footer .row ul{
+    width:100%;
+}
+.footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+}
+.footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+}
+@media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+}
+.footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+}
+.footer .row a i{
+    margin:0% 3%;
+    }
+}
+.row h1{
+    font-size: 30px;
+    
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    margin-left: 70px;
+  }
+  .form1 {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+  }
+  
+  .form label {
+    position: relative;
+  }
+  
+  .form label .input {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+  }
+  
+  .form label .input + span {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: grey;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+  .submit {
+    border: none;
+    outline: none;
+    background-color: royalblue;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    transform: .3s ease;
+  }
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+}
+.contact h1{
+    text-align: center;
+    font-size: 45px;
+}
+.contact p{
+    text-indent: 30px;
+}
+.contact div:nth-child(1){
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.signin{
+    color: white;
+}
+.main2 h1{
+    text-align: center;
+    font-size: 80px;
+}
+.main2 p{
+    text-align: center;
+    font-size: 25px;
+    font-family: libre baskerville;
+}
+.main2 button{
+    margin-left: 45%;
+    margin-bottom: 30px;
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+.main2 a{
+    color: white;
+}
+.about2{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-areas: "img txt";
+}
+.about2 > div:nth-child(1){
+    grid-area: img;
+}
+.about2 > div:nth-child(2){
+    grid-area: txt;
+}
+.about2 p{
+    font-size: 50px;
+    font-family: merriweather;
+}
+.about2 img{
+    width: 600px;
+    margin-left: 100px;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about3{
+    display: grid;
+    grid-template-columns: repeat(2.50%);
+    grid-template-areas: "txt img";
+}
+.about3 > div:nth-child(1){
+    grid-area: txt;
+}
+.about3 > div:nth-child(2){
+    grid-area: img;
+}
+.about3 p{
+    font-size: 20px;
+    font-family: merriweather;
+    text-indent: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 15%;
+}
+.about3 img{
+    width: 600px;
+    margin-right: 50px;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#comp{
+    font-size: 32px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#ie{
+    font-size: 38px;
+}
+.main-product{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-areas: "lisa info";
+}
+.main-product{
+    grid-area: lisa;
+}
+.main-product img{
+    width: 1000px;
+}
+.main-product > div:nth-child(2) h1{
+    text-align: center;
+    font-size: 40px;
+    margin-left: 80px;
+    margin-top: 180px;
+}
+.main-product > div:nth-child(2) p{
+    text-align: center;
+    margin-left: 70px;
+    font-size: 20px;
+}
+.sub-product > div{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.sub-product > div > h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sub-product > div > ul{
+    font-size: 20px;
+}
+.piece{
+    background-color: black;
+    color: white;
+}
+.piece h1{
+    text-align: center;
+    font-size: 40px;
+}
+.piece p{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 25px;
+}
+.piece img{
+    margin-left: 9%;
+}
+.legacy h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+}
+.legacy p{
+    text-align: center;
+}
+.legacy h6{
+    text-align: center;
+}
+.legacy > h6 > a{
+    text-decoration: none;
+    color: black;
+}
+.mainhead > div:nth-child(2) > a > img{
+    height: 100px;
+}
+.subhead > div:nth-child(1) > img{
+    height: 90px;
+}
+#lisaf{
+    height: 700px;
+    width: 1000px;
+}
